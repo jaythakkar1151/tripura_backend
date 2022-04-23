@@ -25,6 +25,9 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false
       },
+      otp: {
+        type: Sequelize.INTEGER,
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE
