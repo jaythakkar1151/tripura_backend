@@ -12,7 +12,7 @@ const IndexRoute = require('./routes/index')
 
 app.use('/',IndexRoute)
 
-app.listen(process.env.APP_PORT,()=>{
+app.listen(process.env.PORT,()=>{
     console.log(`Your app is running on port number ${process.env.PORT}`);
 });
 
